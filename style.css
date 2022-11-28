@@ -16,18 +16,21 @@
 }
 p{
     color: white;
+    margin: 10px;
 }
 span{
     color:yellow;
 }
 .name{
     font-size: 4rem;
-    font-weight: bold;
+    font-weight: 600;
     font-family: inherit;
+    letter-spacing: 5px;
     font-style: inherit;
 }
 
 .line{
-    border-width: 10px;
-    border: 1px dotted white;
+opacity: 0.5;
+    border-bottom: 1px dotted white;
+    width: 50%;
 }
