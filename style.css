@@ -14,6 +14,29 @@
     flex-direction: column;
     font-family: 'ralewaysemibold', Helvetica, Arial, sans-serif;  
 }
+
+.navbar{
+background-color:aliceblue;
+width: 100%;
+/* position:; */
+opacity: 0.4;
+}
+
+ul{
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    color: black;
+}
+
+
 p{
     color: white;
     margin: 10px;
@@ -33,4 +56,29 @@ span{
 opacity: 0.5;
     border-bottom: 1px dotted white;
     width: 50%;
+}
+
+
+.wwd{
+    font-size: 12px;
+    font-weight: 100;
+    background: transparent;
+    color: #FFFFFF;
+    font-family: inherit;
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 2px;
+    font-style: inherit;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    text-rendering: optimizeLegibility;
+    padding: 10px 15px;
+}
+
+.wwd:hover{
+    cursor: pointer;
+    background-color:rgba(255, 255, 255, 0.15);
+}
+.second{
+    width:100%;
+    height:100vh;
 }
